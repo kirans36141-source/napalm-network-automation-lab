@@ -1,0 +1,24 @@
+# 🧠 NAPALM Network Automation Lab
+
+This project demonstrates how I used **Python** and the **NAPALM (Network Automation and Programmability Abstraction Layer Multivendor)** library to automate basic network management tasks on Cisco IOS routers.
+
+## 🚀 Project Overview
+The goal of this lab was to learn how to automate network devices using Python instead of configuring them manually from the CLI.  
+I built a small test topology with two Cisco routers (R1 and R2) connected in Packet Tracer and used NAPALM scripts from my PC to connect, collect data, and manage them over SSH.
+
+Even though Packet Tracer doesn’t allow direct SSH from the host machine, this project shows the complete workflow and scripts that would work in a real environment (for example, GNS3, EVE-NG, or physical routers).
+
+## 🔧 What the Script Does
+
+- Connects to a Cisco router over SSH using NAPALM.  
+- Retrieves **device facts** such as hostname, model, OS version, and uptime.  
+- Can be extended to back up running configurations or push configuration changes.  
+- Demonstrates structured data collection and clean session handling using Python.
+
+## 🧩 Technologies Used
+- **Python 3**
+- **NAPALM** library (`pip install napalm`)
+- **Cisco IOS routers** (tested on Packet Tracer)
+- **Git & GitHub** for version control
+
+## 🖥️ Example Output
